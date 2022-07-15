@@ -15,7 +15,7 @@ final list = InterleavedBuilder(
 
 - Build item passing index calling `build` method (useful for ListView):
 
-```
+```dart
 InterleavedBuilder(
 ...
 ).build(context, index);
