@@ -81,9 +81,9 @@ final itemBuilder = InterleavedBuilder(
 );
 
 return Scaffold(
-body: ListView.builder(
-itemCount: itemBuilder.length,
-itemBuilder: itemBuilder.build,
-),
+  body: ListView.builder(
+    itemCount: itemBuilder.length,
+    itemBuilder: itemBuilder.build,
+  ),
 );
 ```
